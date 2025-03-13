@@ -43,13 +43,13 @@ const heroImg = document.querySelector(".bigPicture").style.backgroundImage = "u
 
 // Jan laver opgave 3 og 4. 
 
-const newImg = document.createElement("link");
+const link = document.createElement("link");
 // const headImg = document.querySelector(head)
 
 link.rel = "icon";
 link.type = "image";
 link.href = "http://hearthstoneapi.com/favicon.ico";
-document.head.append(newImg);
+document.head.appendChild(link);
 
 
 
