@@ -165,3 +165,40 @@ footer .container h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(34, 36%, 53%);
 }
+
+
+
+
+
+
+
+.hover{
+
+  animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  20% {
+    transform: rotate(-30deg);
+  }
+  40% {
+    transform: rotate(30deg);
+  }
+  60% {
+    transform: rotate(-30deg);
+  }
+
+  80% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+
+}
