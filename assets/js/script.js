@@ -20,9 +20,38 @@
 
 /*3. Brug javascript til at skifte billedet ud i .bigPicture-boksen, brug dette eller noget helt andet: https://cdn.pixabay.com/photo/2017/09/28/13/18/amusement-2795490_960_720.jpg */
 
+
+const heroImg = document.querySelector(".bigPicture").style.backgroundImage = "url('https://cdn.pixabay.com/photo/2017/09/28/13/18/amusement-2795490_960_720.jpg')";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*4. Brug javascript til at indsætte et favicon - f.eks. det her http://hearthstoneapi.com/favicon.ico (I know...hvorfor ville man nogensinde gøre det irl...men for øvelsens skyld) */
 
 // Jan laver opgave 3 og 4. 
+
+const link = document.createElement("link");
+// const headImg = document.querySelector(head)
+
+link.rel = "icon";
+link.type = "image";
+link.href = "http://hearthstoneapi.com/favicon.ico";
+document.head.appendChild(link);
+
+
 
 
 
