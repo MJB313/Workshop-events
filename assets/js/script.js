@@ -51,6 +51,8 @@
 
 
 /*5.1 Brug javascript til at gemme teksterne væk i artiklerne <p>-tags. Indsæt istedet link med "Læs mere..." */
+const btn = document.createElement("button");
+
 
 
 
